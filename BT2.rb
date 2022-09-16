@@ -42,6 +42,6 @@ puts "Giam gan #{arr.sort.reverse}"
 in_Number = 4
 float_Number = 4.1
 char_El = 'q'
-puts "a = #{in_Number}"
-puts "b = #{float_Number}"
-puts "c = #{char_El}"
+puts "integer = #{in_Number}"
+puts "float = #{float_Number}"
+puts "char = #{char_El}"
