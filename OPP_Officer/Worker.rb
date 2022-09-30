@@ -1,11 +1,11 @@
 require_relative 'Officer.rb'
 class Worker < Officer
-    attr_accessor :level
-    def initialize(name, age, gender, address, level)
-        super(name, age, gender, address)
-        @level = level
+    attr_accessor :level_121
+    def initialize(name_121, age_121, gender_121, address_121, level_121)
+        super(name_121, age_121, gender_121, address_121)
+        @level_121 = level_121
     end
     def to_s
-        return "Worker: #{name} | #{age} | #{gender} | #{address} | #{level} "
+        return "Worker: #{name_121} | #{age_121} | #{gender_121} | #{address_121} | #{level_121} "
     end
 end

@@ -1,11 +1,11 @@
 require_relative 'Officer.rb'
 class Engineer < Officer
-    attr_accessor :branch
-    def initialize(name, age, gender, address, branch)
-        super(name, age, gender, address)
-        @branch = branch
+    attr_accessor :branch_121
+    def initialize(name_121, age_121, gender_121, address_121, branch_121)
+        super(name_121, age_121, gender_121, address_121)
+        @branch_121 = branch_121
     end
     def to_s
-        return "Engineer: #{name} | #{age} | #{gender} | #{address} | #{branch}"
+        return "Engineer: #{name_121} | #{age_121} | #{gender_121} | #{address_121} | #{branch_121}"
     end
 end
