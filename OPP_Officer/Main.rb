@@ -50,7 +50,7 @@ class Main
           exit
       end
     when 2
-      puts "Enter Name_121 Seach : "
+      puts "Enter Name_121 Search : "
       name_121 = gets.chomp.to_s
       manager_121.findByName(name_121)
     when 3
