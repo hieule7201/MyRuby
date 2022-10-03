@@ -1,3 +1,6 @@
+require_relative 'Worker.rb'
+require_relative 'Engineer.rb'
+require_relative 'Staff.rb'
 class Manager
     $listOfficer_121 = Array.new
     def addOfficer(officer_121)
@@ -9,9 +12,10 @@ class Manager
             return i_121.display
           end
         end
+    end
     def showListInforOfficer()
         $listOfficer_121.each do |i_121|
-          i_121.display + "\n"
+            i_121.display
         end
       end
 end

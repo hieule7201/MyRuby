@@ -6,6 +6,6 @@ class Worker < Officer
         @level_121 = level_121
     end
     def to_s
-        return "Worker: #{name_121} | #{age_121} | #{gender_121} | #{address_121} | #{level_121} "
+        return "Worker: #{name_121} | #{age_121} | #{gender_121} | #{address_121} | #{level_121} \n"
     end
 end

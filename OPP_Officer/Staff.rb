@@ -7,6 +7,6 @@ class Staff < Officer
         @task_121 = task_121
     end
     def to_s
-        return "Staff: #{name_121} | #{age_121} | #{gender_121} | #{address_121} | #{task_121}"
+        return "Staff: #{name_121} | #{age_121} | #{gender_121} | #{address_121} | #{task_121} \n"
     end
 end

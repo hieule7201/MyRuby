@@ -6,6 +6,6 @@ class Engineer < Officer
         @branch_121 = branch_121
     end
     def to_s
-        return "Engineer: #{name_121} | #{age_121} | #{gender_121} | #{address_121} | #{branch_121}"
+        return "Engineer: #{name_121} | #{age_121} | #{gender_121} | #{address_121} | #{branch_121} \n"
     end
 end
