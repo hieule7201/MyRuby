@@ -50,7 +50,11 @@ class Main
           exit
       end
     when 2
+<<<<<<< HEAD:OOP_Officer/Main.rb
       puts "Enter Name Search : "
+=======
+      puts "Enter Name_121 Search : "
+>>>>>>> f02eb970caf16ff2b92b9623b591c73ce90ac718:OPP_Officer/Main.rb
       name_121 = gets.chomp.to_s
       manager_121.findByName(name_121)
     when 3
