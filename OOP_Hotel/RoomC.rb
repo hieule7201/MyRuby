@@ -1,6 +1,6 @@
 require_relative 'Room.rb'
-class RoomC
-    def RoomC
+class RoomC < Room
+    def initialize
         super("C", 100)
     end
     def to_s
